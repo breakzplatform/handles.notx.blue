@@ -108,7 +108,7 @@ Every page's `<title>`, `og:title` and `twitter:title` read `<page description> 
 Run a domain where anyone can get a Bluesky handle? Add it to the list:
 
 - **Open an issue** with the
-  [Add a domain form](https://github.com/breakzplatform/bsky-public-handles/issues/new?template=add-domain.yml)
+  [Add a domain form](https://github.com/breakzplatform/handles.notx.blue/issues/new?template=add-domain.yml)
   and a maintainer will add it; or
 - **Open a pull request** that adds an entry to
   [`data/handles.json`](data/handles.json), keeping the list in alphabetical

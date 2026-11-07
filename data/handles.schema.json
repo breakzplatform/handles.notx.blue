@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.schema.json",
+  "$id": "https://raw.githubusercontent.com/breakzplatform/handles.notx.blue/main/data/handles.schema.json",
   "title": "Bluesky Public Handles",
   "description": "Community list of public Bluesky handle domains. The array order is the order shown in the README and on the site.",
   "type": "object",

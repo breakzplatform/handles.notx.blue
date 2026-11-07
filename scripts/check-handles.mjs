@@ -32,7 +32,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_PATH = join(root, "data/handles.json");
 
 const USER_AGENT =
-  "bsky-public-handles-checker/1.0 (+https://github.com/breakzplatform/bsky-public-handles)";
+  "handles-notx-blue-checker/1.0 (+https://github.com/breakzplatform/handles.notx.blue)";
 const TIMEOUT_MS = 12_000;
 const MAX_BODY = 512 * 1024;
 const MAX_SAMPLES = 5;
