@@ -2990,35 +2990,6 @@
       }
     },
     {
-      "domain": "sou.blue",
-      "description": "[PAID] for Joselito supporters",
-      "get_handle_url": "https://sou.blue",
-      "maintainer": {
-        "name": "@joseli.to",
-        "url": "https://bsky.app/profile/joseli.to"
-      },
-      "country": "🇧🇷",
-      "status": "Deprecated",
-      "last_checked": "2026-11-16",
-      "check": {
-        "result": "fail",
-        "consecutive_failures": 7,
-        "method": "domain_only",
-        "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
-        "dns": {
-          "resolves": false,
-          "addresses": [],
-          "nameservers": [],
-          "wildcard": false
-        },
-        "parked": null,
-        "sample_handle": null,
-        "sample_did": null,
-        "sample_source": null,
-        "samples_tried": []
-      }
-    },
-    {
       "domain": "sparkle.blue",
       "description": "General purpose community handle",
       "get_handle_url": "https://vanity.blue",
