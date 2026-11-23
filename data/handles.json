@@ -11,12 +11,12 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
         "method": "sample_handle",
-        "summary": "menelay0.academics.blue resolves to did:plc:wcortycizyfcdt4tmavfyebn via https (found via bluesky-search)",
+        "summary": "gwenvines.academics.blue resolves to did:plc:h7u67kufcq3t4bhkr4sj3n2h via https (found via bluesky-search)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -40,16 +40,16 @@
         "parked": null,
         "samples_tried": [
           {
-            "handle": "menelay0.academics.blue",
+            "handle": "gwenvines.academics.blue",
             "source": "bluesky-search",
             "ok": true,
-            "did": "did:plc:wcortycizyfcdt4tmavfyebn",
+            "did": "did:plc:h7u67kufcq3t4bhkr4sj3n2h",
             "via": "https",
             "error": null
           }
         ],
-        "sample_handle": "menelay0.academics.blue",
-        "sample_did": "did:plc:wcortycizyfcdt4tmavfyebn",
+        "sample_handle": "gwenvines.academics.blue",
+        "sample_did": "did:plc:h7u67kufcq3t4bhkr4sj3n2h",
         "sample_source": "bluesky-search"
       }
     },
@@ -63,10 +63,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -92,78 +92,23 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
-        "method": "sample_handle",
-        "summary": "parked or for sale: website matches a parked/for-sale page (this domain (name )?(is|may be) for sale)",
+        "consecutive_failures": 8,
+        "method": "domain_only",
+        "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
-          "resolves": true,
-          "addresses": [
-            "207.207.210.107",
-            "207.207.210.229"
-          ],
-          "nameservers": [
-            "curitiba.ns.porkbun.com",
-            "fortaleza.ns.porkbun.com",
-            "maceio.ns.porkbun.com",
-            "salvador.ns.porkbun.com"
-          ],
-          "wildcard": true
+          "resolves": false,
+          "addresses": [],
+          "nameservers": [],
+          "wildcard": false
         },
-        "website": {
-          "url": "https://army.social/",
-          "http_status": 200,
-          "final_url": "https://army.social/",
-          "error": null
-        },
-        "parked": "website matches a parked/for-sale page (this domain (name )?(is|may be) for sale)",
-        "samples_tried": [
-          {
-            "handle": "bts.army.social",
-            "source": "maintainer",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 200)"
-          },
-          {
-            "handle": "adm.army.social",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 200)"
-          },
-          {
-            "handle": "funds.army.social",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 200)"
-          },
-          {
-            "handle": "report.army.social",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 200)"
-          },
-          {
-            "handle": "hobizinho1.army.social",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 200)"
-          }
-        ],
+        "parked": null,
         "sample_handle": null,
         "sample_did": null,
-        "sample_source": null
+        "sample_source": null,
+        "samples_tried": []
       }
     },
     {
@@ -176,10 +121,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -202,7 +147,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -211,8 +156,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
-            "64.29.17.65"
+            "216.198.79.1",
+            "216.198.79.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -252,7 +197,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -304,10 +249,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -333,10 +278,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (beyoncebrasil.beyhive.social, obxstan00.beyhive.social, beymusiclover8.beyhive.social, renascido1981.beyhive.social, yonce44.beyhive.social)",
         "dns": {
@@ -416,12 +361,12 @@
       },
       "country": "🇫🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
         "method": "sample_handle",
-        "summary": "adamschefter-mirror.bluesky.bot resolves to did:plc:2ita5o32hmjxhnzg4a7sxe73 via https (found via bluesky-search)",
+        "summary": "labeler.bluesky.bot resolves to did:plc:qgfjm3cs6fi6kdrgrq6tslkq via https (found via bluesky-search)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -445,16 +390,16 @@
         "parked": null,
         "samples_tried": [
           {
-            "handle": "adamschefter-mirror.bluesky.bot",
+            "handle": "labeler.bluesky.bot",
             "source": "bluesky-search",
             "ok": true,
-            "did": "did:plc:2ita5o32hmjxhnzg4a7sxe73",
+            "did": "did:plc:qgfjm3cs6fi6kdrgrq6tslkq",
             "via": "https",
             "error": null
           }
         ],
-        "sample_handle": "adamschefter-mirror.bluesky.bot",
-        "sample_did": "did:plc:2ita5o32hmjxhnzg4a7sxe73",
+        "sample_handle": "labeler.bluesky.bot",
+        "sample_did": "did:plc:qgfjm3cs6fi6kdrgrq6tslkq",
         "sample_source": "bluesky-search"
       }
     },
@@ -468,10 +413,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -497,12 +442,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "lafilledhiver21.bsky.cool resolves to did:plc:ntl3huaqomdv5xjzqw3y63mz via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (lafilledhiver21.bsky.cool, quinzebleu.bsky.cool, rentumber.bsky.cool, 100jvta.bsky.cool, cig4rette.bsky.cool)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -525,15 +470,47 @@
           {
             "handle": "lafilledhiver21.bsky.cool",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:ntl3huaqomdv5xjzqw3y63mz",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "quinzebleu.bsky.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "rentumber.bsky.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "100jvta.bsky.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "cig4rette.bsky.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "lafilledhiver21.bsky.cool",
-        "sample_did": "did:plc:ntl3huaqomdv5xjzqw3y63mz",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -546,12 +523,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "smilesdaylight.bsky.finance resolves to did:plc:64mb377goemls5h7p4ppjpmh via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (smilesdaylight.bsky.finance, sunghoon.bsky.finance, haerin.bsky.finance, kaarina.bsky.finance, jaemin.bsky.finance)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -574,15 +551,47 @@
           {
             "handle": "smilesdaylight.bsky.finance",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:64mb377goemls5h7p4ppjpmh",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "sunghoon.bsky.finance",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "haerin.bsky.finance",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "kaarina.bsky.finance",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "jaemin.bsky.finance",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "smilesdaylight.bsky.finance",
-        "sample_did": "did:plc:64mb377goemls5h7p4ppjpmh",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -595,12 +604,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "scarwetwitch.bsky.fish resolves to did:plc:b6oyu2pnnb2mylbgfti2j6h3 via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (scarwetwitch.bsky.fish, necco.bsky.fish, yoa.bsky.fish, nyenyo.bsky.fish, cumirebuz.bsky.fish)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -623,15 +632,47 @@
           {
             "handle": "scarwetwitch.bsky.fish",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:b6oyu2pnnb2mylbgfti2j6h3",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "necco.bsky.fish",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "yoa.bsky.fish",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "nyenyo.bsky.fish",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "cumirebuz.bsky.fish",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "scarwetwitch.bsky.fish",
-        "sample_did": "did:plc:b6oyu2pnnb2mylbgfti2j6h3",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -644,12 +685,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "flyman347.bsky.lgbt resolves to did:plc:gyl3ux5jwv2j4up54jh3y46b via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (flyman347.bsky.lgbt, vr5.bsky.lgbt, naajen.bsky.lgbt, taehyung.bsky.lgbt, geshuyan.bsky.lgbt)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -672,15 +713,47 @@
           {
             "handle": "flyman347.bsky.lgbt",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:gyl3ux5jwv2j4up54jh3y46b",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "vr5.bsky.lgbt",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "naajen.bsky.lgbt",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "taehyung.bsky.lgbt",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "geshuyan.bsky.lgbt",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "flyman347.bsky.lgbt",
-        "sample_did": "did:plc:gyl3ux5jwv2j4up54jh3y46b",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -693,7 +766,7 @@
       },
       "country": "🇲🇰",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -744,7 +817,7 @@
       },
       "country": "🇨🇦",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -753,8 +826,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "152.233.50.2",
-            "2a02:6ea0:c454::1"
+            "2a02:6ea0:e237::1503:1",
+            "37.19.207.37"
           ],
           "nameservers": [
             "coco.bunny.net",
@@ -794,7 +867,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -803,8 +876,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.66",
-            "76.76.21.123"
+            "66.33.60.194",
+            "76.76.21.164"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -844,10 +917,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -873,10 +946,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -902,11 +975,11 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
-        "method": "sample_handle",
+        "consecutive_failures": 8,
+        "method": "domain_only",
         "summary": "parked or for sale: nameserver ns5.afternic.com belongs to a parking or domain marketplace service",
         "dns": {
           "resolves": true,
@@ -927,16 +1000,7 @@
           "error": null
         },
         "parked": "nameserver ns5.afternic.com belongs to a parking or domain marketplace service",
-        "samples_tried": [
-          {
-            "handle": "cacador-de-else.codafofo.xyz",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known ERR_SSL_TLSV1_UNRECOGNIZED_NAME)"
-          }
-        ],
+        "samples_tried": [],
         "sample_handle": null,
         "sample_did": null,
         "sample_source": null
@@ -954,33 +1018,10 @@
       "status": "Active",
       "last_checked": "2026-11-16",
       "check": {
-        "result": "pass",
+        "result": "error",
         "consecutive_failures": 0,
         "method": "domain_only",
-        "summary": "no sample handle found; only domain-level signals checked (domain is delegated in DNS and not parked)",
-        "dns": {
-          "resolves": true,
-          "addresses": [
-            "216.198.79.1",
-            "64.29.17.65"
-          ],
-          "nameservers": [
-            "ns1.vercel-dns.com",
-            "ns2.vercel-dns.com"
-          ],
-          "wildcard": true
-        },
-        "website": {
-          "url": "https://comunidade.blue/",
-          "http_status": 404,
-          "final_url": "https://comunidade.blue/",
-          "error": null
-        },
-        "parked": null,
-        "samples_tried": [],
-        "sample_handle": null,
-        "sample_did": null,
-        "sample_source": null
+        "summary": "check could not complete: DNS lookup failed for comunidade.blue A: DNS status 2"
       }
     },
     {
@@ -995,42 +1036,10 @@
       "status": "Active",
       "last_checked": "2026-11-16",
       "check": {
-        "result": "pass",
+        "result": "error",
         "consecutive_failures": 0,
-        "method": "sample_handle",
-        "summary": "frosty12.comunidade.dev.br resolves to did:plc:6dqwinwlvpvu3swfacos7m6x via https (found via bluesky-search)",
-        "dns": {
-          "resolves": true,
-          "addresses": [
-            "216.198.79.65",
-            "64.29.17.65"
-          ],
-          "nameservers": [
-            "ns1.vercel-dns.com",
-            "ns2.vercel-dns.com"
-          ],
-          "wildcard": true
-        },
-        "website": {
-          "url": "https://comunidade.dev.br/",
-          "http_status": 200,
-          "final_url": "https://comunidade.dev.br/",
-          "error": null
-        },
-        "parked": null,
-        "samples_tried": [
-          {
-            "handle": "frosty12.comunidade.dev.br",
-            "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:6dqwinwlvpvu3swfacos7m6x",
-            "via": "https",
-            "error": null
-          }
-        ],
-        "sample_handle": "frosty12.comunidade.dev.br",
-        "sample_did": "did:plc:6dqwinwlvpvu3swfacos7m6x",
-        "sample_source": "bluesky-search"
+        "method": "domain_only",
+        "summary": "check could not complete: DNS lookup failed for comunidade.dev.br NS: DNS status 2"
       }
     },
     {
@@ -1040,7 +1049,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1092,7 +1101,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1144,12 +1153,12 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
-        "summary": "none of the 5 handle(s) found under the domain resolve (marcomini05.cronicamente.online, ygwrotepeople.cronicamente.online, mackk.cronicamente.online, remindeir.cronicamente.online, kittycomsono.cronicamente.online)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (marcomini05.cronicamente.online, madame-rockstar.cronicamente.online, pesdefava.cronicamente.online, anacarolina.cronicamente.online, vitoriaamaoalan.cronicamente.online)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -1181,7 +1190,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "ygwrotepeople.cronicamente.online",
+            "handle": "madame-rockstar.cronicamente.online",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -1189,7 +1198,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "mackk.cronicamente.online",
+            "handle": "pesdefava.cronicamente.online",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -1197,7 +1206,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "remindeir.cronicamente.online",
+            "handle": "anacarolina.cronicamente.online",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -1205,7 +1214,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "kittycomsono.cronicamente.online",
+            "handle": "vitoriaamaoalan.cronicamente.online",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -1225,7 +1234,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1234,7 +1243,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "64.29.17.1",
+            "216.198.79.65",
             "64.29.17.65"
           ],
           "nameservers": [
@@ -1275,7 +1284,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1327,10 +1336,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1353,7 +1362,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1362,7 +1371,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
+            "216.198.79.1",
             "64.29.17.1"
           ],
           "nameservers": [
@@ -1403,7 +1412,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1452,7 +1461,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1504,7 +1513,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1513,8 +1522,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "76.76.21.123",
-            "76.76.21.93"
+            "66.33.60.193",
+            "76.76.21.22"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1554,7 +1563,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1606,7 +1615,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1615,8 +1624,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.130",
-            "76.76.21.61"
+            "76.76.21.241",
+            "76.76.21.93"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1656,12 +1665,12 @@
       },
       "country": "🇸🇪",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
-        "summary": "none of the 5 handle(s) found under the domain resolve (sudo.fursona.club, bobua.fursona.club, akyra.fursona.club, adleg.fursona.club, echolution.fursona.club)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (sudo.fursona.club, akyra.fursona.club, adleg.fursona.club, echolution.fursona.club, taehyung.fursona.club)",
         "dns": {
           "resolves": false,
           "addresses": [],
@@ -1682,14 +1691,6 @@
           {
             "handle": "sudo.fursona.club",
             "source": "maintainer",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
-          },
-          {
-            "handle": "bobua.fursona.club",
-            "source": "bluesky-search",
             "ok": false,
             "did": null,
             "via": null,
@@ -1718,6 +1719,14 @@
             "did": null,
             "via": null,
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
+          },
+          {
+            "handle": "taehyung.fursona.club",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           }
         ],
         "sample_handle": null,
@@ -1735,7 +1744,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1787,10 +1796,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1816,7 +1825,7 @@
       },
       "country": "🇬🇧",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1825,8 +1834,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.16.129",
-            "216.150.16.193"
+            "216.150.1.1",
+            "216.150.16.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1866,10 +1875,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1892,7 +1901,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1948,7 +1957,7 @@
       },
       "country": "🇧🇪",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1992,7 +2001,7 @@
       "maintainer": null,
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2002,7 +2011,7 @@
           "resolves": true,
           "addresses": [
             "216.150.1.65",
-            "216.150.16.129"
+            "216.150.16.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2039,7 +2048,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2048,8 +2057,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.129",
-            "216.150.16.193"
+            "216.150.1.1",
+            "216.150.1.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2089,10 +2098,10 @@
       },
       "country": "🇧🇪",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (b555.lesbian.cat, maoraa6.lesbian.cat, ltfaith369.lesbian.cat, zb1.lesbian.cat, 3js2.lesbian.cat)",
         "dns": {
@@ -2168,7 +2177,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2220,12 +2229,12 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
-        "summary": "none of the 5 handle(s) found under the domain resolve (2.maw.rest, chi.maw.rest, utdmari.maw.rest, tynesa.maw.rest, tsaya.maw.rest)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (2.maw.rest, utdmari.maw.rest, tynesa.maw.rest, tsaya.maw.rest, radio.maw.rest)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -2247,14 +2256,6 @@
         "samples_tried": [
           {
             "handle": "2.maw.rest",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known ECONNRESET)"
-          },
-          {
-            "handle": "chi.maw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2284,6 +2285,14 @@
             "did": null,
             "via": null,
             "error": "handle does not resolve (no _atproto TXT record; well-known ECONNRESET)"
+          },
+          {
+            "handle": "radio.maw.rest",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known ECONNRESET)"
           }
         ],
         "sample_handle": null,
@@ -2301,7 +2310,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2350,7 +2359,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2401,10 +2410,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
         "summary": "parked or for sale: nameserver ns1.atom.com belongs to a parking or domain marketplace service",
         "dns": {
@@ -2427,7 +2436,7 @@
         "parked": "nameserver ns1.atom.com belongs to a parking or domain marketplace service",
         "samples_tried": [
           {
-            "handle": "chwe.paw.rest",
+            "handle": "jin.paw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2435,7 +2444,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "hiiroarchive.paw.rest",
+            "handle": "deer.paw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2443,7 +2452,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "puppie.paw.rest",
+            "handle": "woormies.paw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2451,7 +2460,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "soonwoo.paw.rest",
+            "handle": "utdrob.paw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2459,7 +2468,7 @@
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           },
           {
-            "handle": "batman.paw.rest",
+            "handle": "mungchi.paw.rest",
             "source": "bluesky-search",
             "ok": false,
             "did": null,
@@ -2482,7 +2491,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2491,8 +2500,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.130",
-            "66.33.60.35"
+            "76.76.21.142",
+            "76.76.21.164"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2534,42 +2543,10 @@
       "status": "Active",
       "last_checked": "2026-11-16",
       "check": {
-        "result": "pass",
+        "result": "error",
         "consecutive_failures": 0,
-        "method": "sample_handle",
-        "summary": "me.pharmsky.app resolves to did:plc:kdilsz4w5ihiuntitetr2dlg via https (found via maintainer)",
-        "dns": {
-          "resolves": true,
-          "addresses": [
-            "216.198.79.65",
-            "64.29.17.65"
-          ],
-          "nameservers": [
-            "ns1.vercel-dns.com",
-            "ns2.vercel-dns.com"
-          ],
-          "wildcard": true
-        },
-        "website": {
-          "url": "https://pharmsky.app/",
-          "http_status": 200,
-          "final_url": "https://pharmsky.app/",
-          "error": null
-        },
-        "parked": null,
-        "samples_tried": [
-          {
-            "handle": "me.pharmsky.app",
-            "source": "maintainer",
-            "ok": true,
-            "did": "did:plc:kdilsz4w5ihiuntitetr2dlg",
-            "via": "https",
-            "error": null
-          }
-        ],
-        "sample_handle": "me.pharmsky.app",
-        "sample_did": "did:plc:kdilsz4w5ihiuntitetr2dlg",
-        "sample_source": "maintainer"
+        "method": "domain_only",
+        "summary": "check could not complete: DNS lookup failed for pharmsky.app AAAA: DNS status 2"
       }
     },
     {
@@ -2582,7 +2559,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2634,7 +2611,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2686,7 +2663,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2695,8 +2672,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.1",
-            "216.198.79.65"
+            "216.198.79.65",
+            "64.29.17.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2733,10 +2710,10 @@
       "maintainer": null,
       "country": "🇬🇮",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2762,7 +2739,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2814,7 +2791,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2866,12 +2843,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
         "method": "sample_handle",
-        "summary": "afterglow.sergals.art resolves to did:plc:w3mwdea6apakpuznffekbe4l via https (found via bluesky-search)",
+        "summary": "lordmagazine.sergals.art resolves to did:plc:ofgzpaieke4mfzf63xly2ff5 via https (found via bluesky-search)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -2895,16 +2872,16 @@
         "parked": null,
         "samples_tried": [
           {
-            "handle": "afterglow.sergals.art",
+            "handle": "lordmagazine.sergals.art",
             "source": "bluesky-search",
             "ok": true,
-            "did": "did:plc:w3mwdea6apakpuznffekbe4l",
+            "did": "did:plc:ofgzpaieke4mfzf63xly2ff5",
             "via": "https",
             "error": null
           }
         ],
-        "sample_handle": "afterglow.sergals.art",
-        "sample_did": "did:plc:w3mwdea6apakpuznffekbe4l",
+        "sample_handle": "lordmagazine.sergals.art",
+        "sample_did": "did:plc:ofgzpaieke4mfzf63xly2ff5",
         "sample_source": "bluesky-search"
       }
     },
@@ -2918,7 +2895,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2970,10 +2947,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2999,7 +2976,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3051,7 +3028,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3103,7 +3080,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3112,8 +3089,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.194",
-            "76.76.21.164"
+            "66.33.60.35",
+            "76.76.21.123"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -3150,7 +3127,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3202,7 +3179,7 @@
       },
       "country": "🇧🇪",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3246,7 +3223,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3298,12 +3275,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "9i520.tired.io resolves to did:plc:vhqyxk33spzhrydhiylb2pl7 via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (9i520.tired.io, 247.tired.io, 7.tired.io, 705340.tired.io, rizqimuzaki.tired.io)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -3326,15 +3303,47 @@
           {
             "handle": "9i520.tired.io",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:vhqyxk33spzhrydhiylb2pl7",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "247.tired.io",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "7.tired.io",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "705340.tired.io",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "rizqimuzaki.tired.io",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "9i520.tired.io",
-        "sample_did": "did:plc:vhqyxk33spzhrydhiylb2pl7",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -3347,17 +3356,17 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "viipriv.tripazeada.club resolves to did:plc:37gd6in4pbvnpsmnpdwe4dic via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (apogrifa.tripazeada.club, viipriv.tripazeada.club, mariaa034.tripazeada.club, fakeroy17.tripazeada.club, lkyxx7.tripazeada.club)",
         "dns": {
           "resolves": true,
           "addresses": [
             "216.198.79.1",
-            "216.198.79.65"
+            "64.29.17.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -3377,22 +3386,46 @@
             "handle": "apogrifa.tripazeada.club",
             "source": "maintainer",
             "ok": false,
-            "did": "did:plc:4erpwxsletfocei46lc2vbmo",
-            "via": "https",
-            "error": "DID document does not claim this handle"
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           },
           {
             "handle": "viipriv.tripazeada.club",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:37gd6in4pbvnpsmnpdwe4dic",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "mariaa034.tripazeada.club",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "fakeroy17.tripazeada.club",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "lkyxx7.tripazeada.club",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "viipriv.tripazeada.club",
-        "sample_did": "did:plc:37gd6in4pbvnpsmnpdwe4dic",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -3405,10 +3438,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -3434,12 +3467,12 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
-        "result": "pass",
-        "consecutive_failures": 0,
+        "result": "fail",
+        "consecutive_failures": 1,
         "method": "sample_handle",
-        "summary": "isma.vibes.cool resolves to did:plc:zfupkpjvgih5obth5fwmtiyl via https (found via bluesky-search)",
+        "summary": "none of the 5 handle(s) found under the domain resolve (isma.vibes.cool, delluna.vibes.cool, nad.vibes.cool, vante.vibes.cool, eltantrum.vibes.cool)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -3462,15 +3495,47 @@
           {
             "handle": "isma.vibes.cool",
             "source": "bluesky-search",
-            "ok": true,
-            "did": "did:plc:zfupkpjvgih5obth5fwmtiyl",
-            "via": "https",
-            "error": null
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "delluna.vibes.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "nad.vibes.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "vante.vibes.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
+          },
+          {
+            "handle": "eltantrum.vibes.cool",
+            "source": "bluesky-search",
+            "ok": false,
+            "did": null,
+            "via": null,
+            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
-        "sample_handle": "isma.vibes.cool",
-        "sample_did": "did:plc:zfupkpjvgih5obth5fwmtiyl",
-        "sample_source": "bluesky-search"
+        "sample_handle": null,
+        "sample_did": null,
+        "sample_source": null
       }
     },
     {
@@ -3483,10 +3548,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -3512,7 +3577,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3521,8 +3586,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.1",
-            "216.150.16.129"
+            "216.150.1.193",
+            "216.150.16.193"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -3562,17 +3627,17 @@
       },
       "country": "🇧🇪",
       "status": "Deprecated",
-      "last_checked": "2026-11-16",
+      "last_checked": "2026-11-23",
       "check": {
         "result": "fail",
-        "consecutive_failures": 7,
+        "consecutive_failures": 8,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (gustabunny1.woke.cat, yuutaa1026.woke.cat, twok1.woke.cat, pepiux1.woke.cat, kuroken127.woke.cat)",
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.65",
-            "216.150.16.193"
+            "216.150.16.1",
+            "216.150.16.129"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
